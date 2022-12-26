@@ -1,0 +1,12 @@
+{
+  "name": "sexodb",
+  "version": "1.0.0",
+  "description": "🔥 a simple and hot interpreted database",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {},
+  "repository": "https://github.com/gui6572bhxjx784/SexoDb.git",
+  "keywords": [],
+  "author": "Gandalf",
+  "license": "ISC"
+}
