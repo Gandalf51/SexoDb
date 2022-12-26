@@ -24,6 +24,9 @@ sexoDB.assDelete("nome")
 //aqui podemos adicionar algum valor numeral na database
 sexoDB.cumAdd("money", 500)
 
+//aqui podemos subtrair algum valor numeral na database
+sexoDB.blowjobSubtract("money", 499)
+
 //aqui podemos retornar os itens de nosso banco de dados
 sexoDB.lustAll("tipo")// all recebe: "all", "keys", "value" e "object"
 ```
