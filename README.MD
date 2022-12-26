@@ -25,6 +25,5 @@ sexoDB.assDelete("nome")
 sexoDB.cumAdd("money", 500)
 
 //aqui podemos retornar os itens de nosso banco de dados
-sexoDB.lustAll("all")//retorna toda a database/entrada
 sexoDB.lustAll("tipo")// all recebe: "all", "keys", "value" e "object"
 ```
