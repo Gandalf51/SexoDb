@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, writeFileSync } from "fs"
+const { existsSync, readFileSync, writeFileSync } = require("fs")
 class sexodb {
     constructor(arq) {
         if (!arq.endsWith(".json")) throw new Error("O aquivo deve ser json")
@@ -63,4 +63,4 @@ class sexodb {
     }
 }
 
-export default sexodb
+module.exports = sexodb

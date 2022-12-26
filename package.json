@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "🔥 a simple and hot interpreted database",
   "main": "./src/index.js",
-  "type": "module",
   "scripts": {},
   "repository": "https://github.com/Gandalf51/SexoDb",
   "keywords": [],
