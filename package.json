@@ -2,9 +2,7 @@
   "name": "sexodb",
   "version": "1.0.3",
   "description": "🔥 a simple and hot interpreted database",
-  "type": "module",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -b"
