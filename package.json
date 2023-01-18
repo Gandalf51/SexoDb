@@ -1,11 +1,21 @@
 {
   "name": "sexodb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🔥 a simple and hot interpreted database",
-  "main": "./src/index.js",
-  "scripts": {},
-  "repository": "https://github.com/Gandalf51/SexoDb",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "repository": "https://github.com/GabriewF/SexoDb",
   "keywords": [],
   "author": "Gandalf",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "mathjs": "^11.5.0"
+  }
 }
