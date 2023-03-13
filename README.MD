@@ -7,26 +7,33 @@ SexoDB
 ## 🤤 Examples
 
 ```js
-const sexodb = require("sexodb")
 
-//aqui vamos começar a manipular a database
-const sexoDB = new sexodb("sexodabatase.json")
+async function example() {
 
-//aqui vamos adicionar um valor à nossa chave nome
-sexoDB.boobsSet("nome", "steve")
+// Add 1 to the "counter" key
+await db.cumAdd("counter");
 
-//aqui podemos buscar algo de dentro da database pelo nome
-sexoDB.pussyGet("nome")
+// Add 5 to the "points" key
+await db.Cumadd("points", 5);
 
-//aqui podemos deletar algum valor pelo nome
-sexoDB.assDelete("nome")
+// Subtract 1 from the "counter" key
+await db.blowjobSubtract("counter");
 
-//aqui podemos adicionar algum valor numeral na database
-sexoDB.cumAdd("money", 500)
+// List all keys and values in the database
+const allData = db.lustAll();
+console.log(allData);
 
-//aqui podemos subtrair algum valor numeral na database
-sexoDB.blowjobSubtract("money", 499)
+// Set the value of the "name" key to "John"
+await db.boobsSet("name", "John");
 
-//aqui podemos retornar os itens de nosso banco de dados
-sexoDB.lustAll("tipo")// all recebe: "all", "keys", "value" e "object"
+// Get the value of the "points" key
+const points = await db.pussyGet<number>("points");
+console.log(points);
+
+// Delete the "name" key
+await db.assDelete("name");
+
+}
+
+example();
 ```
