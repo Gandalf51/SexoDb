@@ -11,7 +11,7 @@
     "strict": true,
     "useUnknownInCatchVariables": true,
     "noUncheckedIndexedAccess": true,
-    "module": "esnext",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "declaration": true,
@@ -28,7 +28,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": ["ESNext", "DOM"],
-    "target": "ES2021",
+    "target": "ESNext",
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true
   }
