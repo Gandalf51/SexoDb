@@ -8,13 +8,15 @@ SexoDB
 
 ```js
 
+const { sexoDB } = require("sexodb")
+const db = new sexoDB("database.json")
 async function example() {
 
 // Add 1 to the "counter" key
 await db.cumAdd("counter");
 
 // Add 5 to the "points" key
-await db.Cumadd("points", 5);
+await db.cumAdd("points", 5);
 
 // Subtract 1 from the "counter" key
 await db.blowjobSubtract("counter");

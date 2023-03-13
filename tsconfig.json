@@ -12,7 +12,7 @@
       "strict": true,
       "useUnknownInCatchVariables": true,
       "noUncheckedIndexedAccess": true,
-      "module": "ESNext",
+      "module": "CommonJS",
       "moduleResolution": "node",
       "resolveJsonModule": true,
       "declaration": true,
