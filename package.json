@@ -1,6 +1,6 @@
 {
   "name": "sexodb",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "🔥 a simple and hot interpreted database",
   "type": "module",
   "main": "./dist/index.js",
