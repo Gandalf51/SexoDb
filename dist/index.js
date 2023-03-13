@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.sexoDB = void 0;
-const node_fs_1 = require("node:fs");
-class sexoDB {
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
+export class sexoDB {
     /**
    * @name SexoDB
    * @description SexoDB constructor
@@ -25,18 +22,18 @@ class sexoDB {
         if (!arq.endsWith(".json")) {
             throw new Error("The file must be a JSON file.");
         }
-        if (!(0, node_fs_1.existsSync)(arq)) {
-            (0, node_fs_1.writeFileSync)(arq, "{}");
+        if (!existsSync(arq)) {
+            writeFileSync(arq, "{}");
         }
         try {
-            this.content = JSON.parse((0, node_fs_1.readFileSync)(arq).toString());
+            this.content = JSON.parse(readFileSync(arq).toString());
         }
         catch (error) {
             throw new Error(`Error loading JSON database: ${error}`);
         }
     }
     async writeToFile() {
-        (0, node_fs_1.writeFileSync)(this.arq, JSON.stringify(this.content, null, 2));
+        writeFileSync(this.arq, JSON.stringify(this.content, null, 2));
     }
     /**
    * @name cumAdd
@@ -121,5 +118,4 @@ class sexoDB {
         return this.content[path];
     }
 }
-exports.sexoDB = sexoDB;
 //# sourceMappingURL=index.js.map

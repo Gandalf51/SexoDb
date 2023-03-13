@@ -55,4 +55,3 @@ export declare class sexoDB {
    */
     pussyGet<T = unknown>(path: string): Promise<T>;
 }
-//# sourceMappingURL=index.d.ts.map
