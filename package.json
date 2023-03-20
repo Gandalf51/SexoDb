@@ -9,7 +9,14 @@
     "build": "tsc"
   },
   "repository": "https://github.com/Gandalf51/SexoDb",
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "typescript",
+    "json",
+    "mongodb",
+    "mongoose",
+    "keyvalue"
+  ],
   "author": "Gandalf",
   "license": "ISC",
   "devDependencies": {

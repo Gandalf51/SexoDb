@@ -1,10 +1,31 @@
-<h1 align="center">
-SexoDB
-</h1>
+<div align="center">
+<br>
 
-# 🔥 a simple and hot interpreted database
+<p>
+<img src="https://cdn.discordapp.com/attachments/1068185670574690419/1087415152086892725/logo_branca1.png">
+</p>
+</div>
 
-## 🤤 JSON Database Usage
+---
+
+## About 
+**A simple but fast json database you can add values ​​in mongodb with simple methods**
+
+---
+
+## Installation
+
+```sh-session
+npm i sexodb
+```
+
+---
+
+## Example Usage
+
+---
+
+### JSON Example
 
 ```js
 
@@ -40,15 +61,17 @@ await db.assDelete("name");
 example();
 ```
 
-## 🤤 MongoDB Usage
+### MONGODB Example
 
 ```js
 
 const {sexoMongo} = require("sexodb")
 const db = new sexoMongo("Name schema")
 
-async function a () {
-    await db.connect("mongodb://localhost/myDatabase")//Connecting to MongoDB
+async function example () {
+
+    //Connecting to MongoDB
+    await db.connect("mongodb://localhost/myDatabase")
 
     // Add 5 to the "points" key
     await db.cumAdd("points", 5);
@@ -70,3 +93,12 @@ async function a () {
     // Delete the "points" key
    await db.assDelete("points");
 }
+example();
+```
+
+---
+
+## Useful Links
+
+- [GitHub](https://github.com/Gandalf51/SexoDb)
+- [npm](https://www.npmjs.com/package/sexodb)
