@@ -8,12 +8,12 @@
 
 ---
 
-## About 
+## **About**
 **A simple but fast json database you can add values ​​in mongodb with simple methods**
 
 ---
 
-## Installation
+## **Installation**
 
 ```sh-session
 npm i sexodb
@@ -21,11 +21,11 @@ npm i sexodb
 
 ---
 
-## Example Usage
+## **Example Usage**
 
 ---
 
-### JSON Example
+### **JSON Example**
 
 ```js
 
@@ -61,7 +61,7 @@ await db.assDelete("name");
 example();
 ```
 
-### MONGODB Example
+### **MONGODB Example**
 
 ```js
 
@@ -98,7 +98,7 @@ example();
 
 ---
 
-## Useful Links
+## **Useful Links**
 
-- [GitHub](https://github.com/Gandalf51/SexoDb)
-- [npm](https://www.npmjs.com/package/sexodb)
+- [**GitHub**](https://github.com/Gandalf51/SexoDb)
+- [**npm**](https://www.npmjs.com/package/sexodb)
