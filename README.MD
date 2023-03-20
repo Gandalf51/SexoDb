@@ -100,5 +100,5 @@ example();
 
 ## **Useful Links**
 
-- [**GitHub**](https://github.com/Gandalf51/SexoDb)
-- [**npm**](https://www.npmjs.com/package/sexodb)
+- [GitHub](https://github.com/Gandalf51/SexoDb)
+- [npm](https://www.npmjs.com/package/sexodb)
