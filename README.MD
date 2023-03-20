@@ -2,7 +2,7 @@
 <br>
 
 <p>
-<img src="https://cdn.discordapp.com/attachments/1068185670574690419/1087415152086892725/logo_branca1.png">
+<img src="https://cdn.discordapp.com/attachments/1068185670574690419/1087415052526682132/logo_preta1.png">
 </p>
 </div>
 
